@@ -767,10 +767,9 @@ textarea {
   fill: #2196f3;
 }
 .icon-form-check {
-  border: 3px solid #212121;
-  border-radius: 3px;
-}
-
-.check:focus-within > .icon-form-check {
-  background-color: #2196f3;
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 4px;
 }
