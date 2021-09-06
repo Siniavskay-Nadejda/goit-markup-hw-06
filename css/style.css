@@ -716,7 +716,14 @@ textarea {
   border: 1px solid rgba(33, 33, 33, 0.2);
   width: 448px;
   height: 120px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+textarea:hover,
+textarea:focus {
+  border-color: var(--accent-text-color);
+}
+
 .form {
   width: 528px;
   padding: 40px;
@@ -827,7 +834,11 @@ textarea {
   align-items: center;
   color: #ffffff;
   background-color: var(--accent-text-color);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-button:hover,
 .form-button:focus {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
 }
@@ -835,6 +846,7 @@ textarea {
   margin-bottom: 20px;
   height: 138px;
 }
+
 .form-fild-coment label {
   display: block;
   margin-bottom: 4px;
