@@ -148,8 +148,10 @@ nav {
 }
 .link-icon-mail {
   font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  line-height: 100%;
   color: #757575;
   fill: #757575;
   transition-property: color;
@@ -268,6 +270,7 @@ nav {
 /* Приемущества */
 .benefits {
   display: flex;
+  padding-left: 0px;
 }
 .benefits .elements {
   width: 270px;
@@ -314,6 +317,7 @@ nav {
 /* Наша команда */
 .team {
   display: flex;
+  padding-left: 0px;
 }
 .team-element {
   border-bottom-left-radius: 4px;
@@ -474,8 +478,11 @@ nav {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: var(--bg-hero-footer-color);
-  padding-left: 65px;
-  color: #ffffff;
+  padding: 15px 16px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .form-title-footer {
@@ -618,6 +625,7 @@ nav {
 }
 .works {
   display: flex;
+  padding-left: 0px;
 }
 
 .works-title {
@@ -654,7 +662,7 @@ nav {
 
   font-style: regular;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.55;
   line-height: 133%;
   letter-spacing: 3%;
 
@@ -697,7 +705,8 @@ nav {
   position: absolute;
   top: 8px;
   right: 8px;
-  border: 9px 10px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: solid rgba(0, 0, 0, 0.1) 1px;
   background-color: #ffffff;
@@ -796,7 +805,7 @@ textarea:focus {
 }
 .form-check {
   display: flex;
-  align-items: center;
+
   justify-content: center;
 }
 .check {
@@ -809,8 +818,8 @@ textarea:focus {
 
 .icon-form-check {
   position: absolute;
-  top: 0px;
-  left: -18px;
+  top: 3px;
+  left: -24px;
   background-color: #ffffff;
 }
 
